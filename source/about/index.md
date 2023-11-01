@@ -8,9 +8,7 @@ layout: about
 我是一名计算机专业在读研究生，热爱编程与AI算法、发掘好用的软件工具和人性化的用户设计。
 在业余我热爱羽毛球🏸和健身💪，当然少不了体验各种美食🤩
 
-邮箱📫： tangwg@csu.edu.cn
-<!-- [Github](https://github.com/Chris-Tang6/)
-[Kaggle](https://www.kaggle.com/christang0002) -->
+<!-- 邮箱📫： tangwg@csu.edu.cn -->
 
 ## 教育经历
 - 2022.9-至今，中南大学，研究生，计算机技术
