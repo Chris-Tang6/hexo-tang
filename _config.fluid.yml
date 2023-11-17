@@ -343,7 +343,7 @@ navbar:
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    # - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
@@ -901,7 +901,7 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -948,10 +948,10 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/banner.png
+  avatar: /img/tang-avatar.png  
+  banner_img: /img/banner-night.png
   banner_img_height: 60
-  banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
+  banner_mask_alpha: 0.3  
   name: "Tang Wuguo"
   intro: "阿武的个人介绍"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -1041,6 +1041,11 @@ links:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
     type: disqus
 
+# hexo-admin authentification
+admin:
+  username: tangwg
+  password_hash: $2a$10$cyeYcYT9ixUbaL0J7wdY2uKrUrJMGaWK/S4JRPkwp0qor7jpN..hG
+  secret: tangwg's secret
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
