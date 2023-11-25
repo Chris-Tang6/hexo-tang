@@ -118,8 +118,8 @@ fun_features:
   # Progress bar when loading
   progressbar:
     enable: true
-    height_px: 3
-    color: "#29d"
+    height_px: 2
+    color: "#2f8"
     # See: https://github.com/rstacruz/nprogress
     options: { showSpinner: false, trickleSpeed: 100 }
 
@@ -145,12 +145,12 @@ color:
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
+  navbar_bg_color: "#d7dae0"
   navbar_bg_color_dark: "#1f3144"
 
   # 顶部菜单字体色
   # Color of navigation bar text
-  navbar_text_color: "#fff"
+  navbar_text_color: "#3c4858"
   navbar_text_color_dark: "#d0d0d0"
 
   # 副标题字体色
@@ -327,16 +327,16 @@ navbar:
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
   ground_glass:
-    enable: false
+    enable: true
 
     # 模糊像素，只能为数字，数字越大模糊度越高
     # Number of blurred pixel. the larger the number, the higher the blur
-    px: 3
+    px: 18
 
     # 不透明度，数字越大透明度越低，注意透明过度可能看不清菜单字体
     # Ratio of opacity, 1.0 is completely opaque
     # available: 0 - 1.0
-    alpha: 0.7
+    alpha: 0.3
 
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
